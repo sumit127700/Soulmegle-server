@@ -16,7 +16,7 @@ const io = require("socket.io")(server, {
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow requests from this origin
+    origin: "https://soulmegle-client.vercel.app/", // Allow requests from this origin
     methods: ["GET", "POST"], // Allow GET and POST requests
     allowedHeaders: ["Content-Type", "Authorization"], // Add any additional headers you want to allow
     credentials: true, // Allow sending cookies from the client
